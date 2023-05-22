@@ -87,7 +87,7 @@ function App() {
 
         setAllMessages(messages);
       });
-  }, []);
+  }, [API_URL]);
 
   useEffect(() => {
     const successCallback = (position) => {
