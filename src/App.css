@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+#root {
+  height: 100%;
+}
+
+.map {
+  height: 100%;
+}
+
+.message-form {
+  position: absolute !important;
+  top: 10px !important;
+  right: 10px !important;
+  z-index: 999 !important;
+}
+
+.button {
+  margin-top: 10px;
+}
+
+video {
+  width: 100%;
+}
